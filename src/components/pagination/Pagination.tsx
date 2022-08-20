@@ -1,7 +1,6 @@
 import React from "react";
 type paginateProp = {
   count: number;
-
   activePage: number;
   setActivePage: React.Dispatch<React.SetStateAction<number>>;
 };
